@@ -1,12 +1,35 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/form/form",
+    "pages/demo/demo"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "组员小助手",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#e91e63",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"img/icon1.png",
+      "selectedIconPath":"img/icon1_active.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/demo/demo",
+      "iconPath":"img/icon2.png",
+      "selectedIconPath":"img/icon2_active.png",
+      "text": "demo"
+    },
+    {
+      "pagePath": "pages/form/form",
+      "iconPath":"img/icon5.png",
+      "selectedIconPath":"img/icon5_active.png",
+      "text": "我的"
+    }]
   }
 }
