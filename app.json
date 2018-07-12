@@ -2,7 +2,10 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
+    "pages/form-demo/form-demo",
     "pages/form/form",
+    "pages/button/button",
+    "pages/swiper/swiper",
     "pages/demo/demo"
   ],
   "window":{
@@ -26,10 +29,10 @@
       "text": "demo"
     },
     {
-      "pagePath": "pages/form/form",
+      "pagePath": "pages/form-demo/form-demo",
       "iconPath":"img/icon5.png",
       "selectedIconPath":"img/icon5_active.png",
-      "text": "我的"
+      "text": "表单"
     }]
   }
 }

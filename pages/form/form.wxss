@@ -1,0 +1,6 @@
+.wrap{
+    padding:30rpx;
+}
+.section_gap{
+    margin-bottom:30rpx;
+}

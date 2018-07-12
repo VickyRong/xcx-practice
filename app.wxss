@@ -8,3 +8,13 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.navigator-sty{
+  text-align: center;
+  padding:15rpx 30rpx;
+  min-width: 300rpx;
+  background:#2196f3;
+  color:#fff;
+  border-radius: 10rpx; 
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
