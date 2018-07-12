@@ -6,6 +6,8 @@
     "pages/button/button",
     "pages/swiper/swiper",
     "pages/audio/audio",
+    "pages/image/image",
+    "pages/map/map",
     "pages/demo/demo"
   ],
   "window":{
