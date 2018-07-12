@@ -1,26 +1,88 @@
+<navigator url="/pages/button/button" class="navigator-sty">Button组件</navigator>
 <view class="wrap">
-  <form bindsubmit="formSubmit" bindreset="formReset">
-  <view class="section section_gap">
-    <view class="section__title">switch</view>
-    <switch checked name="switch" bindchange="switch1Change"/>
-    <switch checked name="switch" bindchange="switch2Change" color="{{ switchColor }}"/>
-  </view>
-  <view class="section section_gap">
-    <view class="section__title">slider</view>
-    <slider name="slider" show-value></slider>
-  </view>
-  <view class="section section_gap">
-    <view class="section__title">input</view>
-    <input class="ui-input" name="input" placeholder="please input here" />
-  </view>
-  <view class="section section_gap">
-    <view class="section__title">radio</view>
-    <radio-group name="radio-group">
-      <label><radio value="radio1"/>radio1</label>
-      <label><radio value="radio2"/>radio2</label>
-    </radio-group>
-  </view>
-  <view class="section section_gap">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="section section_gap">
+            <view class="section__title">switch</view>
+            <switch checked name="switch" bindchange="switch1Change" />
+            <switch checked name="switch" bindchange="switch2Change" color="{{ switchColor }}" />
+        </view>
+        <view class="section section_gap">
+            <view class="section__title">slider</view>
+            <slider name="slider" show-value></slider>
+        </view>
+        <view class="section section_gap">
+            <view class="section__title">你输入的是：{{inputValue}}</view>
+            <input class="ui-input" bindinput="bindKeyInput" placeholder="输入同步到view中" />
+        </view>
+        <view class="section">
+            <view class="section__title">普通选择器</view>
+            <picker bindchange="bindPickerChange" value="{{pickIndex}}" range="{{array}}">
+                <view class="picker">当前选择：{{array[pickIndex]}}</view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title">多列选择器</view>
+            <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                <view class="picker">
+                    当前选择：
+                    <view>第一列：{{multiArray[0][multiIndex[0]]}}</view>
+                    <view>第二列：{{multiArray[1][multiIndex[1]]}}</view>
+                    <view>第三列：{{multiArray[2][multiIndex[2]]}}</view>
+                </view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title">时间选择器</view>
+            <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+                <view class="picker">当前选择: {{time}}</view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title">日期选择器</view>
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                <view class="picker">当前选择: {{date}}</view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title">省市区选择器</view>
+            <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+                <view class="picker">当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}</view>
+            </picker>
+        </view>
+        <view class="section section_gap">
+            <view class="section__title">radio</view>
+            <radio-group class="radio-group" bindchange="radioChange">
+                <label class="radio" wx:key="{item}" wx:for="{{items}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                    {{item.value}}
+                </label>
+            </radio-group>
+        </view>
+        <view class="section section_gap">
+            <view class="section__title">textarea</view>
+            <view class="section">
+                <textarea class="ui-textarea" bindblur="bindTextAreaBlur" auto-height placeholder="自动变高----这个属性有问题" />
+            </view>
+            <view class="section">
+                <textarea class="ui-textarea" placeholder="placeholder颜色是红色的" placeholder-style="color:red;" />
+            </view>
+             <view class="section">
+                <textarea class="ui-textarea" placeholder="这是一个可以自动聚焦的textarea" auto-focus />
+            </view>
+            <view class="section">
+                <textarea class="ui-textarea" placeholder="这个只有在按钮点击的时候才聚焦" focus="{{focus}}" />
+                <view class="btn-area">
+                    <button bindtap="bindButtonTap">使得输入框获取焦点</button>
+                </view>
+            </view>
+            <view class="section">
+                <form bindsubmit="bindFormSubmit">
+                    <textarea class="ui-textarea" placeholder="form 中的 textarea" name="textarea" />
+                    <button form-type="submit">提交</button>
+                </form>
+            </view>
+        </view>
+        <!-- <view class="section section_gap">
     <view class="section__title">checkbox</view>
     <checkbox-group name="checkbox">
       <label><checkbox value="checkbox1"/>checkbox1</label>
@@ -30,6 +92,6 @@
   <view class="btn-area">
     <button formType="submit" class="section_gap">Submit</button>
     <button formType="reset">Reset</button>
-  </view>
-</form>
+  </view> -->
+    </form>
 </view>

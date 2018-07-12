@@ -2,10 +2,10 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/form-demo/form-demo",
     "pages/form/form",
     "pages/button/button",
     "pages/swiper/swiper",
+    "pages/audio/audio",
     "pages/demo/demo"
   ],
   "window":{
@@ -24,14 +24,14 @@
       "text": "首页"
     }, {
       "pagePath": "pages/demo/demo",
-      "iconPath":"img/icon2.png",
-      "selectedIconPath":"img/icon2_active.png",
+      "iconPath":"img/icon3.png",
+      "selectedIconPath":"img/icon3_active.png",
       "text": "demo"
     },
     {
-      "pagePath": "pages/form-demo/form-demo",
-      "iconPath":"img/icon5.png",
-      "selectedIconPath":"img/icon5_active.png",
+      "pagePath": "pages/form/form",
+      "iconPath":"img/icon2.png",
+      "selectedIconPath":"img/icon2_active.png",
       "text": "表单"
     }]
   }

@@ -1,4 +1,0 @@
-<view class="container">
-    <navigator url="/pages/button/button" class="navigator-sty">Button组件</navigator>
-    <navigator url="/pages/form/form" class="navigator-sty">form表单</navigator>
-</view>
