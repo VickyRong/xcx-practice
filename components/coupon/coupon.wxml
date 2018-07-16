@@ -1,0 +1,19 @@
+<template name="coupon">
+    <view class="ui-coupon g-flex">
+        <view class="price g-flex g-flex-v-c">
+            <text class="price-num">{{ price }}</text>
+            <text class="price-text">元</text>
+        </view>
+        <view class="content">
+            <view class="title">
+                <text class="icon">代</text>
+                <text class="name">88元代金券</text>
+            </view>
+            <view class="time">2014.12.15 ～ 2014.12.30</view>
+            <view class="info">(满128元可用)</view>
+        </view>
+        <view class="picker g-flex g-flex-v-c">
+            <view class="selectPicker checked">✓</view>
+        </view>
+    </view>
+</template>

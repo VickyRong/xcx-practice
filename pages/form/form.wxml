@@ -59,6 +59,19 @@
             </radio-group>
         </view>
         <view class="section section_gap">
+            <view class="section__title">checkbox</view>
+            <checkbox-group name="checkbox">
+                <label>
+                    <checkbox value="checkbox1" />
+                    checkbox1
+                </label>
+                <label>
+                    <checkbox value="checkbox2" />
+                    checkbox2
+                </label>
+            </checkbox-group>
+        </view>
+        <view class="section section_gap">
             <view class="section__title">textarea</view>
             <view class="section">
                 <textarea class="ui-textarea" bindblur="bindTextAreaBlur" auto-height placeholder="自动变高----这个属性有问题" />
@@ -66,7 +79,7 @@
             <view class="section">
                 <textarea class="ui-textarea" placeholder="placeholder颜色是红色的" placeholder-style="color:red;" />
             </view>
-             <view class="section">
+            <view class="section">
                 <textarea class="ui-textarea" placeholder="这是一个可以自动聚焦的textarea" auto-focus />
             </view>
             <view class="section">
@@ -82,16 +95,6 @@
                 </form>
             </view>
         </view>
-        <!-- <view class="section section_gap">
-    <view class="section__title">checkbox</view>
-    <checkbox-group name="checkbox">
-      <label><checkbox value="checkbox1"/>checkbox1</label>
-      <label><checkbox value="checkbox2"/>checkbox2</label>
-    </checkbox-group>
-  </view>
-  <view class="btn-area">
-    <button formType="submit" class="section_gap">Submit</button>
-    <button formType="reset">Reset</button>
-  </view> -->
+        
     </form>
 </view>

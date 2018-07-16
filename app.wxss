@@ -18,3 +18,17 @@
   margin-top: 20rpx;
   font-size: 30rpx;
 }
+
+.g-flex{
+  display: flex;
+}
+.g-flex-c{
+  justify-content: center;
+}
+.g-flex-v{
+  align-items: center;
+}
+.g-flex-v-c{
+  justify-content: center;
+  align-items: center;
+}

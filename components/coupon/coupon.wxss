@@ -1,0 +1,75 @@
+.ui-coupon{
+    background: #FFFFFF;
+    border: 1rpx solid #EFEFEF;
+    border-radius: 8rpx;
+    margin:0 30rpx;
+    height: 180rpx;
+    font-size: 26rpx;
+    color: #999999;
+    letter-spacing: 0;
+    box-sizing: border-box;
+}
+
+.price{
+    width: 178rpx;
+    font-size: 28rpx;
+    color: #B88F64;
+    border-right: 1px dashed #EFEFEF;
+}
+.price::before{
+    width: 30rpx;
+    height: 30rpx;
+    border: 1rpx solid #B88F64;
+    background: #fff;
+    border-radius: 50%;
+}
+.price-num{
+    font-size: 72rpx;
+}
+.price-text{
+    margin-top:30rpx;
+    margin-left: 6rpx;
+}
+.content{
+    padding:30rpx 32rpx 34rpx 28rpx;
+    flex: 1;
+}
+.title{
+    margin-bottom:4rpx;
+}
+.icon{
+    display: inline-block;
+    background-color:#B88F64; 
+    border-radius: 8rpx;
+    color:#fff;
+    font-size: 24rpx;
+    width: 36rpx;
+    line-height: 36rpx;
+    text-align: center;
+    margin-right: 8rpx;
+    vertical-align: middle;
+}
+.name{
+    font-size: 36rpx;
+    color: #646464;
+    vertical-align: middle;
+}
+.picker{
+    width: 40rpx;
+    margin-right: 32rpx;
+}
+.selectPicker{
+    width: 36rpx;
+    height: 36rpx;
+    text-align: center;
+    line-height: 36rpx;
+    background-color:#fff;
+    border-radius: 100%;
+    border: 1rpx solid #D8D8D8;
+    color:#fff;
+}
+.picker .checked{
+    background-color:#B88F64;
+    border: 1rpx solid #B88F64;
+    color:#fff;
+}
