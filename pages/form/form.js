@@ -21,6 +21,15 @@ Page({
             name: '日本'
           }
         ],
+        checkBoxList:[
+          {name: '北京', value: '北京'},
+          {name: '上海', value: '上海', checked: 'true'},
+          {name: '广州', value: '广州'},
+          {name: '深圳', value: '深圳'},
+          {name: '苏州', value: '苏州'},
+          {name: '南京', value: '南京'},
+        ],
+        checkedData:[],
         pickIndex: 0,
         multiArray: [['无脊柱动物', '脊柱动物'], ['扁性动物', '线形动物', '环节动物', '软体动物', '节肢动物'], ['猪肉绦虫', '吸血虫']],
         multiIndex: [0, 0, 0],
@@ -189,6 +198,12 @@ Page({
     radioChange: function(e) {
         console.log('radio发生change事件，携带value值为：', e.detail.value)
     },
+    checkboxChange: function(e) {
+      console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+      this.setData({
+        checkedData : e.detail.value
+      })
+    },
     bindButtonTap: function() {
       this.setData({
         focus: true
@@ -197,6 +212,7 @@ Page({
     bindTextAreaBlur: function(e) {
       console.log(e.detail.value)
     },
+    
     bindFormSubmit: function(e) {
       console.log(e.detail.value.textarea)
     },

@@ -1,3 +1,4 @@
+@import "../../app.wxss";
 .ui-coupon{
     background: #FFFFFF;
     border: 1rpx solid #EFEFEF;

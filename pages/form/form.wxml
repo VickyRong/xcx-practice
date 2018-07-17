@@ -60,14 +60,10 @@
         </view>
         <view class="section section_gap">
             <view class="section__title">checkbox</view>
-            <checkbox-group name="checkbox">
-                <label>
-                    <checkbox value="checkbox1" />
-                    checkbox1
-                </label>
-                <label>
-                    <checkbox value="checkbox2" />
-                    checkbox2
+            <text class="">选中项：{{ checkedData }}</text>
+            <checkbox-group name="checkbox" bindchange="checkboxChange">
+                <label class="checkbox" wx:key="{{ item }}" wx:for="{{checkBoxList}}">
+                    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
                 </label>
             </checkbox-group>
         </view>

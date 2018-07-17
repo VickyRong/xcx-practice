@@ -19,7 +19,7 @@
     padding:10rpx;
     border-radius: 10rpx;
 }
-.radio{
+.radio,.checkbox{
     display: block;
     margin-bottom:6rpx;
 }
