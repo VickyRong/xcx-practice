@@ -19,6 +19,13 @@
   font-size: 30rpx;
 }
 
+.section__title{
+  border-left:10rpx solid #2196f3;
+  padding-left:20rpx;
+  color:#2196f3;
+  margin:15rpx 0;
+}
+
 .g-flex{
   display: flex;
 }

@@ -8,7 +8,8 @@
     "pages/audio/audio",
     "pages/image/image",
     "pages/map/map",
-    "pages/demo/demo"
+    "pages/demo/demo",
+    "pages/apiDemo/apiDemo"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -23,18 +24,18 @@
       "pagePath": "pages/index/index",
       "iconPath":"img/icon1.png",
       "selectedIconPath":"img/icon1_active.png",
-      "text": "首页"
+      "text": "自定义组件"
     }, {
       "pagePath": "pages/demo/demo",
       "iconPath":"img/icon3.png",
       "selectedIconPath":"img/icon3_active.png",
-      "text": "demo"
+      "text": "通用组件"
     },
     {
-      "pagePath": "pages/form/form",
+      "pagePath": "pages/apiDemo/apiDemo",
       "iconPath":"img/icon2.png",
       "selectedIconPath":"img/icon2_active.png",
-      "text": "表单"
+      "text": "API"
     }]
   }
 }

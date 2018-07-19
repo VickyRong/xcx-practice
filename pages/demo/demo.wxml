@@ -1,5 +1,5 @@
 <view class="container">
-    <navigator open-type="switchTab" url="/pages/form/form" class="navigator-sty">form组件</navigator>
+    <navigator url="/pages/form/form" class="navigator-sty">表单组件</navigator>
     <navigator url="/pages/swiper/swiper" class="navigator-sty">swiper组件</navigator>
     <navigator url="/pages/audio/audio" class="navigator-sty">音乐组件</navigator>
     <navigator url="/pages/image/image" class="navigator-sty">图片组件</navigator>
