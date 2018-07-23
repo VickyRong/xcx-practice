@@ -1,4 +1,16 @@
 <view class="wrap">
-    <button type="primary" bindtap="getLocation">获取地理位置</button>
+    <button type="primary" bind:tap="getLocation">获取地理位置</button>
     <view class="section__title">经纬度：{{ latitude }}  {{ longitude }} </view>
+</view>
+
+<view class="wrap">
+    <button type="primary" bind:tap="showLoading">消息提示窗</button>
+</view>
+
+<view class="wrap">
+    <button type="primary" bind:tap="showModal">模态窗</button>
+</view>
+
+<view class="wrap">
+    <button type="primary" bind:tap="showActionSheet">操作菜单</button>
 </view>

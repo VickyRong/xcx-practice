@@ -1,6 +1,20 @@
-<!--index.wxml-->
+<view class="section__title">优惠券组件</view>
 <text>选中项：{{ checkedList }}</text>
 <view class="g-mb20" wx:for="{{ couponList }}"  wx:key="item">
     <coupon bind:myevent="onMyEvent" checkedList="{{ checkedList }}" cId="{{ item.cId }}" price="{{ item.price }}" icon-text="{{ item.iconText }}" 
     title="{{ item.title }}" time="{{ item.time }}" info="{{ item.info }}"></coupon>
 </view>
+
+<view class="section__title">下拉选择框组件</view>
+<pick-select bind:tap="onPickChange"></pick-select>
+ <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{days}}" style="line-height: 50px">{{item}}日</view>
+    </picker-view-column>
+  </picker-view>

@@ -27,22 +27,6 @@ Page({
         info:"(满1000元可用)",
         cId:1999
       },
-      {
-        price:88,
-        iconText:"兑",
-        title:"哈根达斯兑换券",
-        time:"2018.1.5 ～ 2018.6.30",
-        info:"(满999元可用)",
-        cId:1212
-      },
-      {
-        price:50,
-        iconText:"折",
-        title:"折扣券",
-        time:"2014.12.15 ～ 2015.12.30",
-        info:"(满1000元可用)",
-        cId:2331
-      }
     ],
     checkedList:[2039,1999]
   },
@@ -61,7 +45,7 @@ Page({
     }
     this.setData({checkedList:checkedArr})
   },
-  getUserInfo: function(e) {
-   
+  onPickChange:function(e){
+    console.log("引用页面：",e)
   }
 })
