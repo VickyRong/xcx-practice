@@ -5,7 +5,7 @@
     module.exports.isChecked = isChecked
 </wxs> -->
 <view bindtap="onTap" class="ui-coupon g-flex my-class">
-    <view class="price g-flex g-flex-v-c">
+    <view class="price g-flex g-flex-v-center g-flex-center">
         <text class="price-num">{{ price }}</text>
         <text class="price-text">元</text>
     </view>
