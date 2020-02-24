@@ -1,0 +1,17 @@
+<!--商品详情页-->  
+    <view class="header-area">头部</view>
+    <view class="tab-nav {{ isFixed ? 'fixed':'' }}">tab栏</view>
+    <view class="main-content">
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+        <view class="sales-item">内容块</view>
+    </view>
+    

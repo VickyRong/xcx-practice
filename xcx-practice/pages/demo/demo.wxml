@@ -4,4 +4,5 @@
     <navigator url="/pages/audio/audio" class="navigator-sty">音乐组件</navigator>
     <navigator url="/pages/image/image" class="navigator-sty">图片组件</navigator>
     <navigator url="/pages/map/map" class="navigator-sty">地图组件</navigator>
+    <navigator url="/pages/fixed-tab/index" class="navigator-sty">吸顶tab效果</navigator>
 </view>

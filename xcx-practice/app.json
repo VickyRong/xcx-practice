@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/form/form",
@@ -9,33 +9,38 @@
     "pages/image/image",
     "pages/map/map",
     "pages/demo/demo",
-    "pages/apiDemo/apiDemo"
+    "pages/apiDemo/apiDemo",
+    "pages/fixed-tab/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "组员小助手",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color":"#000",
-    "selectedColor":"#e91e63",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath":"img/icon1.png",
-      "selectedIconPath":"img/icon1_active.png",
-      "text": "自定义组件"
-    }, {
-      "pagePath": "pages/demo/demo",
-      "iconPath":"img/icon3.png",
-      "selectedIconPath":"img/icon3_active.png",
-      "text": "通用组件"
-    },
-    {
-      "pagePath": "pages/apiDemo/apiDemo",
-      "iconPath":"img/icon2.png",
-      "selectedIconPath":"img/icon2_active.png",
-      "text": "API"
-    }]
-  }
+    "color": "#000",
+    "selectedColor": "#e91e63",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/icon1.png",
+        "selectedIconPath": "img/icon1_active.png",
+        "text": "自定义组件"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "iconPath": "img/icon3.png",
+        "selectedIconPath": "img/icon3_active.png",
+        "text": "通用组件"
+      },
+      {
+        "pagePath": "pages/apiDemo/apiDemo",
+        "iconPath": "img/icon2.png",
+        "selectedIconPath": "img/icon2_active.png",
+        "text": "API"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
