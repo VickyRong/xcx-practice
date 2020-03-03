@@ -1,0 +1,6 @@
+<view class="section__title">优惠券组件</view>
+<text>选中项：{{ checkedList }}</text>
+<view class="g-mb20" wx:for="{{ couponList }}"  wx:key="item">
+    <coupon bind:myevent="onMyEvent" checkedList="{{ checkedList }}" cId="{{ item.cId }}" price="{{ item.price }}" icon-text="{{ item.iconText }}" 
+    title="{{ item.title }}" time="{{ item.time }}" info="{{ item.info }}"></coupon>
+</view>

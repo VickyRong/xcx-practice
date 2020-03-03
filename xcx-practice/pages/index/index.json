@@ -1,6 +1,5 @@
 {
     "usingComponents": {
-      "coupon": "../../components/coupon/coupon",
-      "pick-select": "../../components/pick-select/pick-select"
+      "coupon": "/components/coupon/coupon"
     }
 }

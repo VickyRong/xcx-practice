@@ -1,16 +1,17 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/form/form",
-    "pages/button/button",
-    "pages/swiper/swiper",
-    "pages/audio/audio",
-    "pages/image/image",
-    "pages/map/map",
-    "pages/demo/demo",
+    "pages/wechatDemo/logs/logs",
+    "pages/wechatDemo/form/form",
+    "pages/wechatDemo/button/button",
+    "pages/wechatDemo/swiper/swiper",
+    "pages/wechatDemo/audio/audio",
+    "pages/wechatDemo/image/image",
+    "pages/wechatDemo/map/map",
+    "pages/wechatDemo/demo",
     "pages/apiDemo/apiDemo",
-    "pages/fixed-tab/index"
+    "pages/baseDemo/fixed-tab/index",
+    "pages/baseDemo/coupon-demo/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,13 +27,13 @@
         "pagePath": "pages/index/index",
         "iconPath": "img/icon1.png",
         "selectedIconPath": "img/icon1_active.png",
-        "text": "自定义组件"
+        "text": "常用自定义组件"
       },
       {
-        "pagePath": "pages/demo/demo",
+        "pagePath": "pages/wechatDemo/demo",
         "iconPath": "img/icon3.png",
         "selectedIconPath": "img/icon3_active.png",
-        "text": "通用组件"
+        "text": "微信组件"
       },
       {
         "pagePath": "pages/apiDemo/apiDemo",

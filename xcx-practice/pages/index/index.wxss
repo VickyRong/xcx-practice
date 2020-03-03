@@ -1,4 +1,7 @@
 /**index.wxss**/
-.g-mb20{
-    margin-bottom:20rpx;
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

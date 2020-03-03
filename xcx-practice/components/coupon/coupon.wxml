@@ -1,9 +1,3 @@
-<!-- <wxs module="stateCheck" >
-    function isChecked(coupon,list){
-        return list.indexOf(coupon.code)>=0
-    }
-    module.exports.isChecked = isChecked
-</wxs> -->
 <view bindtap="onTap" class="ui-coupon g-flex my-class">
     <view class="price g-flex g-flex-v-center g-flex-center">
         <text class="price-num">{{ price }}</text>
