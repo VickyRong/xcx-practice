@@ -1,6 +1,7 @@
 /**index.wxss**/
 
-.container{
+.demo-container{
+    padding-top: 100rpx;
     display: flex;
     flex-direction: column;
     align-items: center;

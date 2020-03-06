@@ -1,0 +1,47 @@
+/**导航栏**/
+.tab-nav{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100rpx;
+    margin-bottom: 20rpx;
+    color:#61616A;
+    background-color: #fff;
+    box-shadow: 0 10rpx 10rpx 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.fixed{
+    position: fixed;
+    top:0;
+}
+.tab-item.active{
+    color:#2589FF;
+}
+.tab-item .item-line{
+    position: absolute;
+    bottom: 0;
+    width: 60rpx;
+    height: 6rpx;
+    background-color:#2589FF;
+}
+.ani-line{
+    position: absolute;
+    bottom: 0;
+    width: 60rpx;
+    height: 6rpx;
+    left: 0;
+    background-color:#2589FF;
+    transition: left .3s linear;
+}
+.ani0{
+    left: 63.75rpx;
+}
+.ani1{
+    left: 251.25rpx;
+}
+.ani2{
+    left: 438.75rpx;
+}
+.ani3{
+    left: 626.25rpx;
+}

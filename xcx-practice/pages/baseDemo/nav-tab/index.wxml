@@ -1,0 +1,18 @@
+<!--tab导航栏-->
+    <text>直接切换</text>
+    <view class="tab-nav flex {{ isFixed ? 'fixed':'' }}">
+        <view wx:for="{{ tabData }}" data-idx="{{ index }}" wx:key="index" bindtap="switchTab"
+            class="tab-item {{ index == currentIndex ? 'active':'' }} flex1 flex flex-center flex-v-center">
+            <view class="font30">{{ item }}</view>
+            <view wx:if="{{ index == currentIndex }}" class="item-line"></view>
+        </view>
+    </view>
+
+    <text>滑动切换</text>
+    <view class="tab-nav flex {{ isFixed ? 'fixed':'' }}">
+        <view wx:for="{{ tabData }}" data-idx="{{ index }}" wx:key="index" bindtap="switchTab"
+            class="tab-item {{ index == currentIndex ? 'active':'' }} flex1 flex flex-center flex-v-center">
+            <view class="font30">{{ item }}</view>
+        </view>
+        <view class="ani-line ani{{ currentIndex }}"></view>
+    </view>
