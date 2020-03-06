@@ -11,7 +11,8 @@
     "pages/wechatDemo/demo",
     "pages/apiDemo/apiDemo",
     "pages/baseDemo/fixed-tab/index",
-    "pages/baseDemo/coupon-demo/index"
+    "pages/baseDemo/coupon-demo/index",
+    "pages/baseDemo/loadmore/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

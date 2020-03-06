@@ -1,0 +1,22 @@
+.header-area{
+    height: 220rpx;
+    background-color:lightblue;
+}
+.tab-nav{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100rpx;
+    background-color: palevioletred;
+    margin-bottom: 20rpx;
+}
+
+.sales-item{
+    background-color: papayawhip;
+    height: 335rpx;
+    margin-bottom: 20rpx;
+}
+.fixed{
+    position: fixed;
+    top:0;
+}
