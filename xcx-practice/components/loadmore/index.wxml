@@ -1,0 +1,14 @@
+<scroll-view class="loadmore-wrap" scroll-y bind:scrolltolower="onScrollToBottom">
+    <slot></slot>
+    <!--加载中-->
+    <view wx:if="{{ !loadEnd }}" class="notice">
+      <view wx:if="{{ isLoading}}">
+        加载中，请稍后...
+      </view>
+    </view>
+    <!--加载完成-->
+    <view wx:if="{{ loadEnd }}" class="notice">
+       已全部加载完毕
+    </view>
+</scroll-view>
+    

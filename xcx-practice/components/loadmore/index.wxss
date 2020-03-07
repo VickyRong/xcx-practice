@@ -1,0 +1,5 @@
+.notice{
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+}

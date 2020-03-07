@@ -1,0 +1,3 @@
+<load-more bind:toEnd="getDataList" loadEnd="{{ loadEnd }}" isLoading="{{ isLoading }}">
+    <view wx:for="{{ dataList }}" wx:key="index" class="cont-item">内容块 {{index+1}}</view>
+</load-more>

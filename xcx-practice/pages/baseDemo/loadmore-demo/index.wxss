@@ -1,0 +1,14 @@
+.cont-item{
+    background-color: #50b6bb;
+    height: 200rpx;
+    border-bottom: 10rpx solid #f5f0e3;
+    color:#fff;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 200rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.g-tac{
+    text-align: center;
+}
