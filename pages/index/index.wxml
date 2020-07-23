@@ -1,0 +1,9 @@
+
+
+<view class="demo-container">
+  <navigator url="/pages/baseDemo/coupon-demo/index" class="navigator-sty">✅ 优惠券组件</navigator>
+  <navigator url="/pages/baseDemo/fixed-tab/index" class="navigator-sty">✅ 吸顶tab</navigator>
+  <navigator url="/pages/baseDemo/nav-tab/index" class="navigator-sty">✅tab切换</navigator>
+  <navigator url="/pages/baseDemo/loadmore-demo/index" class="navigator-sty">✅loadMore</navigator>
+  <navigator url="/pages/baseDemo/fixed-tab/index" class="navigator-sty">蒙层弹窗</navigator>
+</view>
