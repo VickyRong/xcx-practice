@@ -1,0 +1,14 @@
+<!--蒙层 catch:touchmove 阻止向上冒泡-->
+<view 
+    class="mask {{ show ? 'mask-transition' : ''}}" 
+    bindtap="onClose"
+    catch:touchmove="noop" >
+</view> 
+<!--内容-->
+<view 
+    class="content {{ show ? 'content-transition' : ''}}" >
+    <slot/>
+</view>
+
+
+

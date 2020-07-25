@@ -1,0 +1,32 @@
+.mask{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #000;
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition:All .3s ease;
+    transition:All .3s ease;
+}
+.mask-transition{
+    opacity: .7;
+    z-index: 100;
+}
+.content{
+    position: fixed;
+    background: #fff;
+    height: 300rpx;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    overflow-y: auto;
+    transform: translateY(100%); /* y轴向下的偏移量为正 */
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
+}
+.content-transition{
+    transform: translateY(0);
+}

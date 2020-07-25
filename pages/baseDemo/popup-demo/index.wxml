@@ -1,0 +1,19 @@
+<button type="primary" bind:tap="onPopupShow">
+    弹窗按钮
+</button>
+
+<popup 
+   show="{{ pupopStatus }}"
+   bind:close="onPopupHide">
+    <view>内容start1</view>
+    <view>内容</view>
+    <view>内容</view>
+    <view>内容</view>
+    <view>内容</view>
+    <view>内容</view> 
+    <view>内容</view> 
+    <view>内容</view> 
+    <view>内容</view> 
+    <view>内容</view> 
+    <view>内容end1</view> 
+  </popup>

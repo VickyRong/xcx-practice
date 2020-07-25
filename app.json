@@ -13,12 +13,13 @@
     "pages/baseDemo/fixed-tab/index",
     "pages/baseDemo/nav-tab/index",
     "pages/baseDemo/coupon-demo/index",
-    "pages/baseDemo/loadmore-demo/index"
+    "pages/baseDemo/loadmore-demo/index",
+    "pages/baseDemo/popup-demo/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "组员小助手",
+    "navigationBarTitleText": "小程序实战demo",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
