@@ -3,4 +3,4 @@
 <view class="g-mb20" wx:for="{{ couponList }}"  wx:key="item">
     <coupon bind:myevent="onMyEvent" checkedList="{{ checkedList }}" cId="{{ item.cId }}" price="{{ item.price }}" icon-text="{{ item.iconText }}" 
     title="{{ item.title }}" time="{{ item.time }}" info="{{ item.info }}"></coupon>
-</view>
+</view>  
