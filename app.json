@@ -8,7 +8,7 @@
     "pages/wechatDemo/audio/audio",
     "pages/wechatDemo/image/image",
     "pages/wechatDemo/map/map",
-    "pages/wechatDemo/demo",
+    "pages/wechatDemo/index",
     "pages/apiDemo/apiDemo",
     "pages/baseDemo/fixed-tab/index",
     "pages/baseDemo/nav-tab/index",
@@ -33,7 +33,7 @@
         "text": "常用自定义组件"
       },
       {
-        "pagePath": "pages/wechatDemo/demo",
+        "pagePath": "pages/wechatDemo/index",
         "iconPath": "img/icon3.png",
         "selectedIconPath": "img/icon3_active.png",
         "text": "微信组件"
@@ -42,9 +42,14 @@
         "pagePath": "pages/apiDemo/apiDemo",
         "iconPath": "img/icon2.png",
         "selectedIconPath": "img/icon2_active.png",
-        "text": "API"
+        "text": "微信API"
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取您的地理位置，请确认授权"
+    }
+  }
 }

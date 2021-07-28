@@ -1,0 +1,7 @@
+<view class="container">
+    <navigator url="/pages/wechatDemo/form/form" class="btn-sty">表单组件</navigator>
+    <navigator url="/pages/wechatDemo/swiper/swiper" class="btn-sty">swiper组件</navigator>
+    <navigator url="/pages/wechatDemo/audio/audio" class="btn-sty">音乐组件</navigator>
+    <navigator url="/pages/wechatDemo/image/image" class="btn-sty">图片组件</navigator>
+    <navigator url="/pages/wechatDemo/map/map" class="btn-sty">地图组件</navigator>
+</view>

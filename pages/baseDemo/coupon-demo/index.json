@@ -1,5 +1,5 @@
 {
     "usingComponents": {
-      "coupon": "../../components/coupon/coupon"
+      "coupon": "/components/coupon/coupon"
     }
 }

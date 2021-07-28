@@ -1,4 +1,4 @@
-<navigator url="/pages/button/button" class="navigator-sty">Button组件</navigator>
+<navigator url="/pages/button/button" class="btn-sty">Button组件</navigator>
 <view class="wrap">
     <form bindsubmit="formSubmit" bindreset="formReset">
         <view class="section section_gap">

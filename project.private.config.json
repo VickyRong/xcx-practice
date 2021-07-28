@@ -1,0 +1,43 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "loadmore",
+          "pathName": "pages/baseDemo/loadmore-demo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "API例子",
+          "pathName": "pages/apiDemo/apiDemo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "常用自定义组件",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "微信组件",
+          "pathName": "pages/wechatDemo/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
