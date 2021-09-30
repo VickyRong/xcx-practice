@@ -36,6 +36,18 @@
           "pathName": "pages/wechatDemo/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "表单组件",
+          "pathName": "pages/wechatDemo/form/form",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "蒙层弹窗",
+          "pathName": "pages/baseDemo/popup-demo/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

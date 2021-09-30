@@ -1,19 +1,13 @@
-<button type="primary" bind:tap="onPopupShow">
-    弹窗按钮
-</button>
+<view style="overflow:{{ pupopStatus ?'hidden':'' }}" >
+    <button wx:for="{{20}}" wx:key="index" type="primary" bind:tap="onPopupShow">
+    弹窗按钮 {{index+1}}
+    </button>
 
-<popup 
-   show="{{ pupopStatus }}"
-   bind:close="onPopupHide">
-    <view>内容start1</view>
-    <view>内容</view>
-    <view>内容</view>
-    <view>内容</view>
-    <view>内容</view>
-    <view>内容</view> 
-    <view>内容</view> 
-    <view>内容</view> 
-    <view>内容</view> 
-    <view>内容</view> 
-    <view>内容end1</view> 
-  </popup>
+    <popup 
+    show="{{ pupopStatus }}"
+    bind:close="onPopupHide">
+    <view wx:for="{{20}}" wx:key="index">
+        内容{{index+1}}
+    </view>
+    </popup>
+</view>
